@@ -1,4 +1,4 @@
-# Mdex V2 Subgraph
+# Mdex Subgraph
 
 [Mdex](https://mdex.com/) is a decentralized protocol for automated token exchange on HECO/BSC/ETH Chains.
 
