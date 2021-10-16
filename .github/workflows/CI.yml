@@ -32,11 +32,7 @@ jobs:
           restore-keys: |
             ${{ matrix.os }}-yarn-
       - run: yarn
-      - run: yarn auth
-        env:
-          GRAPH_ACCESS_TOKEN: ${{ secrets.GRAPH_ACCESS_TOKEN }}
       - run: yarn codegen
-      - run: yarn build
       - run: yarn deploy
         env:
           GRAPH_ACCESS_TOKEN: ${{ secrets.GRAPH_ACCESS_TOKEN }}
